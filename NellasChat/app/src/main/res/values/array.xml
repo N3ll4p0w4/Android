@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="colori_nomi_utenti_messaggi">
+        <item>@color/rosso</item>
+        <item>@color/arancione</item>
+        <item>@color/giallo</item>
+        <item>@color/verde</item>
+        <item>@color/verde_scuro</item>
+        <item>@color/blu_chiaro</item>
+        <item>@color/blu</item>
+        <item>@color/viola</item>
+        <item>@color/magenta</item>
+    </array>
+
+</resources>

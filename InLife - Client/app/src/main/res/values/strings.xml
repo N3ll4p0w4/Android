@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Life\'s Organizer</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Universal String -->
+    <string name="annulla">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="ho_capito">I understand</string>
+    <string name="accetto">Agree</string>
+    <string name="non_accetto">Disagree</string>
+    <string name="aspetta">Please wait...</string>
+
+    <!-- Strings related to login and registration -->
+    <string name="login_title">Login to your account!</string>
+    <string name="register_title">Register your new account!</string>
+    <string name="prompt_username_email_phone">Username, Email or Phone Number</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_repeat_password">Repeat Password</string>
+    <string name="prompt_name">Complete Name</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_phone_number">Phone Number</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_username_email">This username or email doesn\'t exist.</string>
+    <string name="error_invalid_name">This name is invalid.</string>
+    <string name="error_invalid_username">This username is invalid.</string>
+    <string name="error_invalid_email">This email address is invalid.</string>
+    <string name="error_username_already_used">This username is already in use.</string>
+    <string name="error_email_already_used">This email is already in use.</string>
+    <string name="error_invalid_password">This password is too short.</string>
+    <string name="error_invalid_repeat_password">Passwords do not correspond.</string>
+    <string name="error_incorrect_password">This password is incorrect.</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="registation_completed">Registration completed successfully!</string>
+
+    <!-- My Profile -->
+    <string name="myprofile_immagine_profilo">This is your profile picture!</string>
+    <string-array name="myprofile_immagine_profilo_azioni">
+        <item>Load a new fantastic photo</item>
+        <item>Remove it, I dislike</item>
+    </string-array>
+    <string name="myprofile_uploading_picture">Uploading picture...</string>
+</resources>

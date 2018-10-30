@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/buttonSetIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginTop="16dp"
+        android:onClick="setIpButton"
+        android:text="Set" />
+
+    <EditText
+        android:id="@+id/editSetIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonSetIp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:ems="8"
+        android:hint="Server ip..."
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonRefreshLobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSetIp"
+        android:layout_alignBottom="@+id/buttonSetIp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="refreshLobbiesButton"
+        android:text="Refresh" />
+
+    <EditText
+        android:id="@+id/editNomeNewLobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editSetIp"
+        android:layout_alignStart="@+id/editSetIp"
+        android:layout_below="@+id/buttonSetIp"
+        android:layout_marginTop="15dp"
+        android:ems="12"
+        android:hint="Name new lobby..."
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonCreateNewLobbby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editNomeNewLobby"
+        android:layout_alignEnd="@+id/buttonRefreshLobbies"
+        android:layout_alignRight="@+id/buttonRefreshLobbies"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:onClick="createLobbyButton"
+        android:text="Create" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editNomeNewLobby"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:id="@+id/containerLobbiesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

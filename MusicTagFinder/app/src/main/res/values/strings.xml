@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Music Tag Finder</string>
+    <string name="title_activity_edit_song">editSong</string>
+</resources>

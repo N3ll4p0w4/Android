@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tris</string>
+    <string name="selezionaModalita">Seleziona la modalità di gioco:</string>
+    <string name="eTurno">È il turno di: </string>
+    <string name="nonLibera">Impossibile effettuare questa mossa</string>
+    <string name="nonTurno">Aspetta il tuo turno!</string>
+    <string name="haVinto">Ha vinto </string>
+    <string name="pareggio">La partita è finita in pareggio!</string>
+    <string name="restartButton">Ricomincia</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="it.CoolApp_Engine.freemusicdownloader.freemusicdownloader.MainActivity"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/songName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cerca"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@+id/cerca"
+        android:ems="12"
+        android:hint="@string/testoInizialeEditText"
+        android:imeOptions="actionSearch"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/cerca"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/cerca" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/adsBannerID">
+
+    </com.google.android.gms.ads.AdView>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        android:visibility="gone">
+
+    </WebView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:id="@+id/layoutBottoniCanzoni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/testo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:text="@string/testoInizialeTextView"
+                android:textAlignment="center" />
+
+            <!-- IMPOSTAZIONI
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/sfondoLayoutCanzone"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/downloadButton"
+                    android:layout_width="45dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/icon_download2" />
+
+                <TextView
+                    android:id="@+id/nomeCanzone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Ciao"
+                    android:textAlignment="viewEnd"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/sfondoLayoutCanzone"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/downloadButton"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="45dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginEnd="15dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/icon_download2" />
+
+                <TextView
+                    android:id="@+id/nomeCanzone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/downloadText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/nomeCanzone"
+                    android:layout_below="@+id/downloadButton"
+                    android:text="Downloading..."
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/percentualeDownload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/downloadButton"
+                    android:layout_alignStart="@+id/downloadButton"
+                    android:layout_below="@+id/downloadButton"
+                    android:gravity="center"
+                    android:text="0%"
+                    android:textSize="10sp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/downloadButton"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toEndOf="@+id/downloadText"
+                    android:layout_toStartOf="@+id/percentualeDownload"
+                    android:progress="0"
+                    android:progressTint="@color/verdeScuro" />
+            </RelativeLayout>
+            -->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

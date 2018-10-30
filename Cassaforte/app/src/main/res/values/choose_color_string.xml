@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_colori">
+        <item>Default</item>
+        <item>Bianco</item>
+        <item>Giallo</item>
+        <item>Arancione</item>
+        <item>Rosso</item>
+        <item>Verde</item>
+        <item>Blu</item>
+        <item>Viola</item>
+        <item>Nero</item>
+    </string-array>
+</resources>

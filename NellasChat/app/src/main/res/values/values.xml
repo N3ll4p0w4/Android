@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="messaggiSize">15sp</dimen>
+    <dimen name="messaggiMaxWidth">255dp</dimen>
+    <dimen name="messaggiRispostaSize">13sp</dimen>
+    <dimen name="chatEditTextMaxHeight">100dp</dimen>
+
+    <dimen name="contenitoreRisposteMessaggioInChatAperto">60dp</dimen>
+    <dimen name="contenitoreRisposteMessaggioInChatChiuso">0dp</dimen>
+</resources>

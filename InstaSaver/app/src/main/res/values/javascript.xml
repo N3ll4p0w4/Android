@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_item"></string>
+
+    <!-- Browser -->
+    <string name="get_body">document.body.innerHTML</string>
+    <string name="get_url">window.location.href</string>
+
+    <!-- Accedi -->
+    <string name="is_login_page">
+        if(document.getElementById("id_username"))
+            console.log(true);
+        else
+            console.log(false);
+    </string>
+    <string name="link_accedi">https://api.instagram.com/oauth/authorize/?client_id=8c6e3a936133403fa534a3d7b8fd0c8f&amp;redirect_uri=https://www.instagram.com/&amp;response_type=token</string>
+    <string name="set_username">document.getElementById(\"id_username\").value = </string>
+    <string name="set_password">document.getElementById(\"id_password\").value = </string>
+    <string name="accedi">document.getElementsByClassName(\"button-green\")[0].click();</string>
+    <string name="has_login_error">
+        if(document.getElementById("alerts"))
+            return "true"
+        else
+            return "false"
+    </string>
+    <string name="get_login_error">document.getElementById("alerts").children[0].innerHTML;</string>
+
+    <!-- Main Page-->
+    <string name="link_main_page">https://www.instagram.com/</string>
+
+    <!-- My profile -->
+    <string name="my_profile">document.getElementsByClassName(\"_8scx2 _gvoze coreSpriteDesktopNavProfile\")[0].click()</string>
+    <string name="show_following">document.getElementsByClassName(\"_573jb\")[2].children[0].click()</string>
+
+    <!-- Immagini codes -->
+    <string name="get_immagine_aperta">document.getElementsByClassName("_e3il2 _gxii9")[0].children[0].children[0].srcset;</string>
+    <string name="has_piu_foto">
+        if(document.getElementsByClassName("_4ag49").length > 0)
+            console.log(true);
+        else
+            console.log(false);
+    </string>
+    <string name="get_numero_immagini_aperta">document.getElementsByClassName("_4ag49")[0].children[0].children[0].children.length;</string>
+    <string name="scorri_sinistra">document.getElementsByClassName("_8kphn  _pak6p coreSpriteLeftChevron")[0].click();</string>
+    <string name="scorri_destra">document.getElementsByClassName("_8kphn  _by8kl coreSpriteRightChevron")[0].click();</string>
+</resources>

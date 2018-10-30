@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SearchAccount">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="InstaSave - Search"
+        app:titleTextAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        app:titleTextColor="@android:color/white" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorHeight="5dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@android:color/white">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Following" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_link_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link Username" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_link_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link Post" />
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/page_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

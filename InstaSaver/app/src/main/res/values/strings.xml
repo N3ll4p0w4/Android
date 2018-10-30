@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">InstaSaver</string>
+    <string name="title_activity_login">InstaSaver - Login</string>
+
+    <!-- Shared Prefs -->
+    <string name="credenziali">credenziali</string>
+
+    <!-- Internet problems -->
+    <string name="error_no_connection">No connection</string>
+    <string name="error_load_failed">Load failed, please retry</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_username">Username invalid</string>
+    <string name="error_invalid_password">Password invalid</string>
+    <string name="error_incorrect_password">Password incorrect</string>
+    <string name="title_activity_search_account">Search Account</string>
+
+    <!-- Following Fragment -->
+    <string name="following_edit_text">Username or Name</string>
+    <string name="following_loading_1">Loaded</string>
+    <string name="following_loading_2">following up on</string>
+    <string name="following_not_showed">If the following you\'re searching for isn\'t displayed, try to wait or try rewriting it</string>
+
+    <!-- Username Fragment -->
+    <string name="username_edit_text">Username</string>
+    <string name="username_find_button">Find</string>
+    <string name="username_not_exists">Username doesn\'t exists</string>
+
+    <!-- Account Activity -->
+    <string name="account_post">Post</string>
+    <string name="account_followers">Followers</string>
+    <string name="account_followings">Followings</string>
+
+</resources>

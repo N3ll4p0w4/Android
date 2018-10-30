@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/latoSopra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:rotation="90"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_linea_png" />
+
+    <ImageView
+        android:id="@+id/latoSotto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:rotation="270"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_linea_png" />
+
+    <ImageView
+        android:id="@+id/latoDestro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:rotation="180"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_linea_png" />
+
+    <ImageView
+        android:id="@+id/latoSinistro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_linea_png" />
+
+    <ImageView
+        android:id="@+id/curvaSopraDx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:rotation="90"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_curva_png" />
+
+    <ImageView
+        android:id="@+id/curvaDxSotto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:rotation="180"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_curva_png" />
+
+    <ImageView
+        android:id="@+id/curvaSottoSx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:rotation="270"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_curva_png" />
+
+    <ImageView
+        android:id="@+id/curvaSxSopra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_curva_png" />
+
+    <ImageView
+        android:id="@+id/centro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/minimappa_centro_png" />
+
+</RelativeLayout>

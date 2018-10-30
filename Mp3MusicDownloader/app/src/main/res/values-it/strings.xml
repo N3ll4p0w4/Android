@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Free Music Downloader</string>
+    <string name="testoInizialeTextView">Cerca una canzone!</string>
+    <string name="testoInizialeEditText">Inserisci nome canzone...</string>
+    <string name="cerca">Cerca</string>
+    <string name="ricarica">Ricarica</string>
+    <string name="caricamento">Caricamento</string>
+    <string name="premiPerScaricare">Premi per scaricare!</string>
+    <string name="nessunNome">Non hai inserito alcun nome!</string>
+    <string name="downloadIniziato">Download iniziato...</string>
+    <string name="downloadGiaIniziato">Stai gia scaricando questa canzone!</string>
+    <string name="downloadStoppato">Download stoppato...</string>
+    <string name="downloadErrore">Errore durante il download</string>
+    <string name="downloadFinito">Download finito</string>
+    <string name="giaScaricata">Canzone già scaricata!</string>
+    <string name="nonConnesso">Nessuna connessione</string>
+    <string name="permessoConcesso">Permessi abilitati!</string>
+    <string name="permessoNegato">Permessi negati! Abilitali dalle impostazioni</string>
+
+    <!-- IMPOSTAZIONI -->
+    <string name="menuImpostazioni">Impostazioni</string>
+    <string name="shredPrefsImpostazioni">SharedPrefsImpostazioni</string>
+    <string name="pathDownloadFileScritta">Percorso download:</string>
+    <string name="pathDownloadFile">pathDownloadFile</string>
+    <string name="controlloPermessi">Controllo permessi</string>
+
+    <!-- ADS -->
+    <string name="adsAppID">ca-app-pub-4211461896534348~7303877825</string>
+    <string name="adsBannerID">ca-app-pub-4211461896534348/2953569272</string>
+    <string name="adsInterstitialID">ca-app-pub-4211461896534348/8078737591</string>
+</resources>

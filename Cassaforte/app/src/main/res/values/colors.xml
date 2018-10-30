@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgCassaforte">#1f2626</color>
+    <color name="bianco">#ffffff</color>
+    <color name="giallo">#fffb00</color>
+    <color name="arancione">#ff9600</color>
+    <color name="rosso">#ff0000</color>
+    <color name="verdeChiaro">#00ff00</color>
+    <color name="verdeScuro">#008e00</color>
+    <color name="blu">#0000ff</color>
+    <color name="viola">#9600ff</color>
+    <color name="grigio">#646464</color>
+    <color name="nero">#000000</color>
+</resources>

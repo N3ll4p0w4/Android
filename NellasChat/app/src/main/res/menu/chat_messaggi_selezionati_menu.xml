@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_chat_deseleziona_messaggi"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Deseleziona messaggi"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_chat_rispondi_messaggi"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Rispondi messaggi"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_chat_rimuovi_messaggi"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Cancella messaggi"
+        app:showAsAction="always" />
+</menu>

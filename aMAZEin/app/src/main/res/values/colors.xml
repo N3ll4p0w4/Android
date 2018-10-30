@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="bianco_opaco">#fafafa</color>
+    <color name="azzurro">#3eadeb</color>
+    <color name="azzurro_scuro">#ff3493c8</color>
+    <color name="verde_acqua">#1abc9c</color>
+    <color name="verde_smeraldo">#16a085</color>
+    <color name="verde_chiaro">#2ecc71</color>
+    <color name="verde">#27ae60</color>
+    <color name="blu_chiaro">#3498db</color>
+    <color name="blu">#2980b9</color>
+    <color name="violetta">#9b59b6</color>
+    <color name="viola">#8e44ad</color>
+    <color name="blu_scuro">#34495e</color>
+    <color name="blu_mezzanotte">#2c3e50</color>
+    <color name="giallo_ocra">#f1c40f</color>
+    <color name="arancia">#f39c12</color>
+    <color name="carota">#e67e22</color>
+    <color name="zucca">#d35400</color>
+    <color name="rosso_carino">#e74c3c</color>
+    <color name="rosso_pomodoro">#c0392b</color>
+    <color name="grigio_chiaro">#95a5a6</color>
+    <color name="grigio_scuro">#7f8c8d</color>
+
+    <integer-array name="colori">
+
+        <item>@color/azzurro</item>
+        <item>@color/azzurro_scuro</item>
+        <item>@color/verde_acqua</item>
+        <item>@color/verde_smeraldo</item>
+        <item>@color/verde_chiaro</item>
+        <item>@color/verde</item>
+        <item>@color/blu_chiaro</item>
+        <item>@color/blu</item>
+        <item>@color/violetta</item>
+        <item>@color/viola</item>
+        <item>@color/blu_scuro</item>
+        <item>@color/blu_mezzanotte</item>
+        <item>@color/giallo_ocra</item>
+        <item>@color/arancia</item>
+        <item>@color/zucca</item>
+        <item>@color/rosso_carino</item>
+        <item>@color/grigio_chiaro</item>
+        <item>@color/grigio_scuro</item>
+
+    </integer-array>
+
+</resources>

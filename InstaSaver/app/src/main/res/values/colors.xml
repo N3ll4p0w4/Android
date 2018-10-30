@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e74c3c</color>
+    <color name="colorPrimaryDark">#c0392b</color>
+    <color name="colorAccent">#e67e227</color>
+
+    <color name="clickImage">#62000000</color>
+    <color name="videoOrSequence">#82ffffff</color>
+</resources>

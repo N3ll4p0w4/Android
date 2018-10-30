@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scena_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_stile_nuvole"
+    android:backgroundTint="@color/azzurro"
+    tools:context="com.memegram.florian.amazein.MainActivity">
+
+    <TextView
+        android:id="@+id/titolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="top|center_vertical|center"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="@string/app_name"
+        android:textAlignment="gravity"
+        android:textColor="#FAFAFA"
+        android:textSize="50dp" />
+
+
+    <TextView
+        android:id="@+id/tempo_min_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gioca_button"
+        android:layout_alignStart="@+id/gioca_button"
+        android:layout_below="@+id/gioca_button"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/bianco_opaco"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="top|center_vertical|center"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="00:00"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/n_mosse_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempo_min_record"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/orologio_view"
+        android:layout_toRightOf="@+id/orologio_view"
+        android:backgroundTint="@color/bianco_opaco"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="top|center_vertical|center"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="1"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <View
+        android:id="@+id/separatore"
+        style="@style/separatore"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titolo"
+        android:layout_marginTop="50dp"
+        android:alpha="1"
+        android:background="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/gioca_button"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/separatore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/bottone_rounded"
+        android:onClick="gioca"
+        android:text="PLAY"
+        android:textColor="@color/bianco_opaco" />
+
+    <ImageView
+        android:id="@+id/orologio_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tempo_min_record"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tempo_min_record"
+        android:layout_toLeftOf="@+id/tempo_min_record"
+        android:layout_toStartOf="@+id/tempo_min_record"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:tint="@color/bianco_opaco"
+        app:srcCompat="@drawable/orologio" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/n_mosse_record"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/n_mosse_record"
+        android:layout_toLeftOf="@+id/n_mosse_record"
+        android:layout_toStartOf="@+id/n_mosse_record"
+        android:tint="@color/bianco_opaco"
+        app:srcCompat="@drawable/n_mosse" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Free Music Downloader</string>
+    <string name="testoInizialeTextView">Search a song!</string>
+    <string name="testoInizialeEditText">Insert song name...</string>
+    <string name="cerca">Search</string>
+    <string name="ricarica">Reload</string>
+    <string name="caricamento">Loading</string>
+    <string name="premiPerScaricare">Tap to download!</string>
+    <string name="nessunNome">No name entered!</string>
+    <string name="downloadIniziato">Download started...</string>
+    <string name="downloadGiaIniziato">You have already started the download!</string>
+    <string name="downloadStoppato">Download stopped...</string>
+    <string name="downloadErrore">Error during download</string>
+    <string name="downloadFinito">Download finished</string>
+    <string name="giaScaricata">Song already downloaded!</string>
+    <string name="nonConnesso">No connection</string>
+    <string name="permessoConcesso">Permission enable!</string>
+    <string name="permessoNegato">Permission denied! Set it enable in Settings</string>
+
+    <!-- IMPOSTAZIONI -->
+    <string name="menuImpostazioni">Settings</string>
+    <string name="shredPrefsImpostazioni">SharedPrefsImpostazioni</string>
+    <string name="pathDownloadFileScritta">Download Path:</string>
+    <string name="pathDownloadFile">pathDownloadFile</string>
+    <string name="controlloPermessi">Check permission</string>
+
+    <!-- ADS -->
+    <string name="adsAppID">ca-app-pub-4211461896534348~7303877825</string>
+    <string name="adsBannerID">ca-app-pub-4211461896534348/2953569272</string>
+    <string name="adsInterstitialID">ca-app-pub-4211461896534348/8078737591</string>
+</resources>

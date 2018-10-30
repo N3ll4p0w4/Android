@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/account_richiesta_da_layout_immagine_profilo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@color/flatui_carrot" />
+
+        <TextView
+            android:id="@+id/account_richiesta_da_layout_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/account_richiesta_da_layout_immagine_profilo"
+            android:layout_marginLeft="110dp"
+            android:text="Username"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/account_richiesta_da_layout_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/account_richiesta_da_layout_immagine_profilo"
+            android:layout_marginLeft="110dp"
+            android:text="Name"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/account_richiesta_da_layout_decline_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="60dp"
+            app:srcCompat="@drawable/ic_clear_white_48dp" />
+
+        <ImageButton
+            android:id="@+id/account_richiesta_da_layout_accept_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            app:srcCompat="@drawable/crop_image_done" />
+    </RelativeLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background">
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

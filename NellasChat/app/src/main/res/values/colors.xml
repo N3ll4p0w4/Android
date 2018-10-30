@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#128c7e</color>
+    <color name="colorPrimaryDark">#075e54</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="rosso">#FF0000</color>
+    <color name="arancione">#FF7F00</color>
+    <color name="giallo">#ffea00</color>
+    <color name="verde">#00FF00</color>
+    <color name="verde_scuro">#009349</color>
+    <color name="blu_chiaro">#2893ff</color>
+    <color name="blu">#0000FF</color>
+    <color name="viola">#9000ff</color>
+    <color name="magenta">#ce00ce</color>
+
+    <color name="coloreSfondoChat">#f2f2f2</color>
+    <color name="coloreSfondoInput">#ffffff</color>
+
+    <color name="coloreBottoneInviaAltro">#ffffff</color>
+    <color name="coloreBottoneInviaAltroPremuto">#c1c1c1</color>
+
+    <color name="coloreBottoneRimouviRispostaMessaggio">#ededed</color>
+    <color name="coloreBottoneRimouviRispostaMessaggioPremuto">#c1c1c1</color>
+
+    <color name="coloreBottoneInvia">@color/colorPrimary</color>
+    <color name="coloreBottoneInviaPremuto">@color/colorPrimaryDark</color>
+
+    <color name="coloreMessaggioEntrata">#ffffff</color>
+    <color name="coloreAutoreEntrata">#25d366</color>
+    <color name="coloreMessaggioUscita">#dcf8c6</color>
+
+    <color name="coloreUtenteConnesso">#56cbff</color>
+
+    <color name="coloreMessaggioSelezionato">#4d39c2ff</color>
+    <color name="coloreMessaggioSelezionatoCompleto">#7356cbff</color>
+
+    <color name="coloreMessaggioCancellatoTesto">#717171</color>
+
+    <color name="coloreMessaggioRispostaEntrata">#ededed</color>
+    <color name="coloreMessaggioRispostaUscita">#dcf8c6</color>
+</resources>
