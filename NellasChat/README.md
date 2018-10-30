@@ -12,7 +12,6 @@ This app can simulate in a local network a chat between more clients, using serv
 * Quote messages;
 * Disconnect from a server.
 
-### Images
-<br>
-<img src="https://github.com/N3ll4p0w4/Android/blob/master/NellasChat/Screenshots/Screenshot1.jpg" height="500">
-<img src="https://github.com/N3ll4p0w4/Android/blob/master/NellasChat/Screenshots/Screenshot2.jpg" height="500">
+### Images:
+<!><img src="https://github.com/N3ll4p0w4/Android/blob/master/NellasChat/Screenshots/Screenshot1.jpg" height="700">
+<img src="https://github.com/N3ll4p0w4/Android/blob/master/NellasChat/Screenshots/Screenshot2.jpg" height="700">
