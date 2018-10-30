@@ -5,7 +5,7 @@ This app can simulate in a local network a chat between more clients, using serv
 
 ### What you can do in this chat?
 * Add as much client as you want;
-* Search all the activre server;
+* Search all the active server;
 * Enter a server;
 * Send messages;
 * Delete messages;
